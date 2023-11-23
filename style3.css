@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+   
+   }
+   body{
+    
+      font-family:tajawal,sans-serif;
+   
+   }
+header{
+    display: flex;
+    justify-content:first baseline;
+    list-style: none;
+    margin: 20px;
+    height: auto;  
+   
+    margin-bottom: 10px;
+    background-color: rgb(245, 224, 197);
+    font-size: large;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.logo{
+    margin-left:  10px ;
+  
+}
+.logo .imgelogo{
+    border: 5px solid rgb(243, 160, 130);
+    width: 100px;
+    border-radius: 100px ;
+    text-align: left;
+    margin-right:200px;
+}
+ul{
+    list-style-type: none;
+   
+    margin-top:50px;
+    margin-right: 10px;
+
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-right: 20px;
+    transform:translateX (-20px);
+    transition: 0.3s ease-in-out;
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 10px ;
+    color:black;
+    font-family: 'tajawal',sans-serif;
+    
+    font-size:large;
+    font-weight: bold;
+    border-radius: 15px;
+}
+ul li a:hover{
+    background-color: yellow ;
+    transform: translateX(0);
+}
+    .one{
+      
+        font-family: 'tajawal',sans-serif;
+        text-align: center;
+        border-bottom: blue solid 2px;
+        border-radius: 80px;
+    }
+    form{
+        text-align: center;
+        display: ;
+        border: 3px solid blue;
+
+    }
+    .inpgroup1{
+        margin-left: 20px;
+        width: 250px;
+    }
+    footer{
+        display: flex;
+        margin-top: 120px;
+        margin-right: 20px;
+       justify-content: space-between;
+        margin-left: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: 'tajawal',sans-serif;
+       
+        border-bottom: 3px solid blue;
+        background-color: rgb(245, 224, 197);
+        padding: 20px;
+        
+       
+    }
+    .tel{
+        font-family: 'tajawal',sans-serif;
+        font-weight: bold;
+        color: black;
+        font-size: large;
+        margin-top: 2px;
+    
+    }
+    span{
+        color:black;
+        font-size: large;
+        font-family: 'tajawal',sans-serif;
+    }
+    .socal{
+        display: inline-block;
+        color:black;
+        font-weight: bold;
+        font-size:large;
+        margin-left: 20px;
+        font-family: 'tajawal',sans-serif;
+        
+    }
+    
+    
+    a{
+        margin-left: 20px;
+        font-family: 'tajawal',sans-serif;
+    }
+      i{
+     
+        width: 10px;
+        font-size: 20px;
+        padding: 10px;
+        font-family: 'tajawal',sans-serif;
+    }
+    .end{
+        text-align: center;
+    }
+    form{
+        text-align: center;
+        font-size: x-large;
+        display: block;
+        padding: 20px;
+        margin: 10px;
+    }
+    .inpgroup1{
+        padding: auto;
+        margin: auto;
+    }
